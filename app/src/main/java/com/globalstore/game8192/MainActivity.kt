@@ -34,9 +34,8 @@ class MainActivity : ComponentActivity() {
                         Modifier.padding(16.dp)
                     ) {
                         GameScreen()
-                        // ca-app-pub-5820993331824423/2931284310
                         AdMobBanner(
-                            adUnitId = "ca-app-pub-3940256099942544/6300978111",
+                            adUnitId = "ca-app-pub-5820993331824423/2931284310",
                             modifier = Modifier
                                 .align(Alignment.BottomCenter)
                                 .fillMaxWidth()
